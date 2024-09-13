@@ -5,6 +5,26 @@ function App() {
   return (
     <div>
       <Weather />
+      <p>
+        This project was coded by
+        <a
+          href="https://github.com/Ayokunnumi247"
+          target="_blank"
+          rel="profile"
+        >
+          Ayokunnumi Andu
+        </a>{" "}
+        and is
+        <a
+          href="https://github.com/Ayokunnumi247/weather-react"
+          target="_blank"
+          rel="github"
+        >
+          {" "}
+          open-source
+        </a>
+        on GitHub
+      </p>
     </div>
   );
 }
