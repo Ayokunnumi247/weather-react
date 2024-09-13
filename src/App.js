@@ -5,8 +5,8 @@ function App() {
   return (
     <div>
       <Weather />
-      <p>
-        This project was coded by
+      <p className="Weather">
+        This project was coded by{""}
         <a
           href="https://github.com/Ayokunnumi247"
           target="_blank"
@@ -23,7 +23,7 @@ function App() {
           {" "}
           open-source
         </a>
-        on GitHub
+        {""} on GitHub
       </p>
     </div>
   );
