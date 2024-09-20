@@ -6,11 +6,11 @@ function App() {
     <div>
       <Weather />
       <p className="Weather">
-        This project was coded by{""}
+        This project was coded by {""}
         <a
           href="https://github.com/Ayokunnumi247"
           target="_blank"
-          rel="profile"
+          rel="noopener noreferrer"
         >
           Ayokunnumi Andu
         </a>{" "}
@@ -18,7 +18,7 @@ function App() {
         <a
           href="https://github.com/Ayokunnumi247/weather-react"
           target="_blank"
-          rel="github"
+          rel="noopener noreferrer"
         >
           {" "}
           open-source
